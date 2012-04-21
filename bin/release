@@ -1,0 +1,10 @@
+#!/bin/sh
+# example: https://github.com/heroku/heroku-buildpack-hello/blob/master/bin/release
+
+cat << EOF
+---
+addons:
+config_vars:
+default_process_types:
+  web: sh boot.sh
+EOF

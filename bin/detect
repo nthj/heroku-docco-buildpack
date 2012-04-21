@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# all apps are valid
+exit 0
