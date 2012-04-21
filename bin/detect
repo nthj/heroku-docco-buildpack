@@ -1,4 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
+# bin/detect <build-dir>
 
 # all apps are valid
 echo "docco" && exit 0

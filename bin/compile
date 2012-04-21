@@ -1,6 +1,7 @@
 #!/bin/sh
 # example: https://github.com/heroku/heroku-buildpack-hello/blob/master/bin/compile
 
+echo "WHAT"
 
 # fail fast
 set -e
