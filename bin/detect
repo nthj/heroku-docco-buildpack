@@ -1,5 +1,4 @@
 #!/bin/sh
 
 # all apps are valid
-echo "docco"
-exit 0
+echo "docco" && exit 0
